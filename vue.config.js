@@ -34,7 +34,7 @@ module.exports = {
 		// 模板会被推导为 `public/subpage.html`
 		// 并且如果找不到的话，就回退到 `public/index.html`。
 		// 输出文件名会被推导为 `subpage.html`。
-		subpage: 'src/main.js'
+		subpage: 'src/subpage/main.js'
 	},
 
 	// 是否在开发环境下通过 eslint-loader 在每次保存时 lint 代码 (在生产构建时禁用 eslint-loader)
